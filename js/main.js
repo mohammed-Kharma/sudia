@@ -30,7 +30,9 @@ $(".mune").click(function(){
     $(" .header-information").toggle(100);
 });
 });
-AOS.init();
+AOS.init({
+    once:true
+});
 
 window.onresize = function(){
     if(window.innerWidth > 992){

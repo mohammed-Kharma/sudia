@@ -1,5 +1,11 @@
 @media(max-width:576px){
+    body{
+        width: 100%;
+        /* overflow-y: hidden; */
+        overflow-x: hidden !important;
+    }
     header{
+        width: 100% !important;
         min-height: 100vh;
         background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url(../img/Web\ 1920\ –\ 1.png) no-repeat right;
 
@@ -127,8 +133,30 @@
     .profile .container{
         width: 85% !important;
     }
+    .content-header h2{
+        font-size: 18px !important;
+    }
+    .content-header p{
+        font-size: 16px;
+        
+        
+    }
+    .icon-header i{
+        color: #fff;
+        font-size: 18px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    footer h3{
+        font-size: 18px !important;
+    }
 }
 @media(min-width:576px) and (max-width:767.98px){
+    body{
+        width: 100%;
+        /* overflow-y: hidden; */
+        overflow-x: hidden !important;
+    }
     .colum-promming{
         flex-basis: 100%;
     }
@@ -251,8 +279,33 @@
     .profile .container{
         width: 85% !important;
     }
+    .content-header h2{
+        font-size: 20px !important;
+    }
+    .content-header p{
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    .icon-header i{
+        color: #fff;
+        font-size: 20px;
+        margin: 10px;
+        cursor: pointer;
+    }
 }
 @media(min-width:768px) and (max-width:991.98px){
+    body{
+        width: 100%;
+        /* overflow-y: hidden; */
+        overflow-x: hidden !important;
+    }
+    header{
+        width: 100% !important;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url(../img/Web\ 1920\ –\ 1.png) no-repeat right;
+
+    }
+    
     .colum-promming{
         flex-basis: 48%;
     }
@@ -358,7 +411,20 @@
     }
 }
 @media(min-width:992px) and (max-width:1199.98px){
+    body{
+        width: 100%;
+        /* overflow-y: hidden; */
+        overflow-x: hidden !important;
+    }
     .colum-promming{
         flex-basis:49%;
+    }
+    /* header{
+        width: 100% !important;
+        min-height: 130vh;
+
+    } */
+    .content-header{
+        width: 100% !important;
     }
 }
